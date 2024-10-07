@@ -1,0 +1,40 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    background-color: rgb(229, 232, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button{
+    background-color: rgb(126, 207, 5);
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin: 15px;
+    padding: 10px;
+}
+
+#book-container{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(233, 233, 233);
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 25vh;
+    width: 22vw;
+    padding: 5px;
+    margin: 15px;
+}
